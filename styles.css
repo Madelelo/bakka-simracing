@@ -5,13 +5,48 @@
     font-family: Arial, sans-serif;
 }
 
+.text{
+    display: flex;
+    flex-direction: column;
+    text-shadow: #333;
+
+
+
+}
+
+.text1{
+
+    font-size: 40px;
+    margin: 5px;
+    font-weight: 540;
+    color: #333;
+
+
+
+}
+
+.smez{
+
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-    margin: 0;
+    
+}
+
+img{
+    border-radius: 100px;
+
+
 }
 
 .container {
@@ -50,6 +85,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 600;
     transition: background-color 0.3s;
 }
 
@@ -60,9 +96,16 @@ body {
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        max-height: 150px;
     }
 
     .column {
         margin-bottom: 20px;
+    }
+
+    .text1{
+        font-size: 22px;
+
+
     }
 }
